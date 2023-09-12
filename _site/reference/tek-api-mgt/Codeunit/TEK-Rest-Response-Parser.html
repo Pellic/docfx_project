@@ -1,0 +1,1452 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::TEK_Rest_Response_Parser">
+  <h1>Codeunit TEK Rest Response Parser</h1>
+<div class="font-style-italic">ID 64201</div>
+
+
+
+
+
+
+
+  	<div class="summaryHolder">
+  		<div class="summary">
+			<p>Codeunit TEK Rest Response Parser (ID 64201).</p>
+
+  		</div>
+  	</div>
+
+
+
+  	<h2 id="methods">Methods</h2>
+    <h3 class="memberNameHolder">JsonBufferParser</h3>
+    <div class="memberInfo">
+
+    		<div class="summaryHolder">
+    			<div class="summary">
+				<p>JsonBufferParser.</p>
+
+    			</div>
+    		</div>
+
+    		<pre><code dir="ltr" class="hljs lang-al">procedure JsonBufferParser(ResponseString: Text)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								ResponseString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								<p>Text.</p>
+
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">ParseRestResponseFromEntityMapping</h3>
+    <div class="memberInfo">
+
+    		<div class="summaryHolder">
+    			<div class="summary">
+				<p>ParseRestResponseFromEntityMapping.</p>
+
+    			</div>
+    		</div>
+
+    		<pre><code dir="ltr" class="hljs lang-al">procedure ParseRestResponseFromEntityMapping(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								<p>VAR Record &quot;TEK Rest Arg&quot;.</p>
+
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">ParseRestResponseFromEntityMapping</h3>
+    <div class="memberInfo">
+
+    		<div class="summaryHolder">
+    			<div class="summary">
+				<p>ParseRestResponseFromEntityMapping.</p>
+
+    			</div>
+    		</div>
+
+    		<pre><code dir="ltr" class="hljs lang-al">procedure ParseRestResponseFromEntityMapping(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var SourceRef: RecordRef)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								<p>VAR Record &quot;TEK Rest Arg&quot;.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								SourceRef
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								<p>VAR RecordRef.</p>
+
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">MapFromRestDataBuffer</h3>
+    <div class="memberInfo">
+
+    		<div class="summaryHolder">
+    			<div class="summary">
+				<p>MapFromRestDataBuffer.</p>
+
+    			</div>
+    		</div>
+
+    		<pre><code dir="ltr" class="hljs lang-al">procedure MapFromRestDataBuffer(var TempTEKRestEntityData: Record &quot;TEK Rest Data Buffer&quot; temporary, var MappedRecord: RecordRef, var TEKRestEntity: Record &quot;TEK Rest Entity&quot;)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TempTEKRestEntityData
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Data Buffer
+    							</td>
+    							<td>
+								<p>Temporary VAR Record &quot;TEK Rest Data Buffer&quot;.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								<p>VAR RecordRef.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestEntity
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Entity
+    							</td>
+    							<td>
+								<p>VAR Record &quot;TEK Rest Entity&quot;.</p>
+
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">MapFromRestDataBuffer</h3>
+    <div class="memberInfo">
+
+    		<div class="summaryHolder">
+    			<div class="summary">
+				<p>MapFromRestDataBuffer.</p>
+
+    			</div>
+    		</div>
+
+    		<pre><code dir="ltr" class="hljs lang-al">procedure MapFromRestDataBuffer(var TempTEKRestEntityData: Record &quot;TEK Rest Data Buffer&quot; temporary, var MappedRecord: RecordRef, var TEKRestEntity: Record &quot;TEK Rest Entity&quot;, var SourceRef: RecordRef)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TempTEKRestEntityData
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Data Buffer
+    							</td>
+    							<td>
+								<p>Temporary VAR Record &quot;TEK Rest Data Buffer&quot;.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								<p>VAR RecordRef.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestEntity
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Entity
+    							</td>
+    							<td>
+								<p>VAR Record &quot;TEK Rest Entity&quot;.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								SourceRef
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								<p>VAR RecordRef.</p>
+
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">AssignRestField</h3>
+    <div class="memberInfo">
+
+    		<div class="summaryHolder">
+    			<div class="summary">
+				<p>AssignRestField.</p>
+
+    			</div>
+    		</div>
+
+    		<pre><code dir="ltr" class="hljs lang-al">procedure AssignRestField(var RestEntity: RecordRef, var RestField: Record Field, JToken: JsonToken)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								RestEntity
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								<p>VAR RecordRef.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								RestField
+    							</td>
+    							<td class="font-style-italic">
+										Field
+    							</td>
+    							<td>
+								<p>VAR Record Field.</p>
+
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								<p>JsonToken.</p>
+
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+  	<h2 id="events">Events</h2>
+    <h3 class="memberNameHolder">OnAfterFindNestedJsonObject</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterFindNestedJsonObject(i: Integer, NestedJsonObject: Text, GetCollectionCount: Integer, var IsHandled: Boolean)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								i
+    							</td>
+    							<td class="font-style-italic">
+										Integer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								NestedJsonObject
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								GetCollectionCount
+    							</td>
+    							<td class="font-style-italic">
+										Integer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								IsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnAfterMappingRecordFromArray</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterMappingRecordFromArray(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var MappedRecord: RecordRef, JToken: JsonToken, JToken2: JsonToken)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken2
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnAfterMappingRecord</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterMappingRecord(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var MappedRecord: RecordRef, JToken: JsonToken, JToken2: JsonToken)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken2
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeMappingRecordFromArray</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeMappingRecordFromArray(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var MappedRecord: RecordRef, JToken: JsonToken, JToken2: JsonToken, var IsHandled: Boolean)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken2
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								IsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeMappingRecord</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeMappingRecord(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var MappedRecord: RecordRef, JToken: JsonToken, JToken2: JsonToken, var IsHandled: Boolean)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken2
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								IsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeDeserializeObject</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeDeserializeObject(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var JSONObject: JsonObject, var JSONString: Text, var DeserializationIsHandled: Boolean)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONObject
+    							</td>
+    							<td class="font-style-italic">
+										JsonObject
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								DeserializationIsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnAfterAssignKeyFields</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterAssignKeyFields(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var RestField: Record Field, JSONObject: JsonObject, JToken: JsonToken, var MappingRec: RecordRef)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								RestField
+    							</td>
+    							<td class="font-style-italic">
+										Field
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONObject
+    							</td>
+    							<td class="font-style-italic">
+										JsonObject
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappingRec
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnAfterAssignFields</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterAssignFields(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, var RestField: Record Field, JSONObject: JsonObject, JToken: JsonToken, var MappingRec: RecordRef)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								RestField
+    							</td>
+    							<td class="font-style-italic">
+										Field
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONObject
+    							</td>
+    							<td class="font-style-italic">
+										JsonObject
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JToken
+    							</td>
+    							<td class="font-style-italic">
+										JsonToken
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappingRec
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeMappingSingleElement</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeMappingSingleElement(var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, JSONString: Text, var MappingRec: RecordRef, var IsHandled: Boolean)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappingRec
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								IsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeStartLoopingNestedFields</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeStartLoopingNestedFields(var RestEntity: RecordRef, FieldNo: Integer, Tag: Text, JSONString: Text)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								RestEntity
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								FieldNo
+    							</td>
+    							<td class="font-style-italic">
+										Integer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								Tag
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnAfterAssignRestFieldsFromElement</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnAfterAssignRestFieldsFromElement(var TempTEKRestEntityData: Record &quot;TEK Rest Data Buffer&quot; temporary, var MappingRec: RecordRef, var TEKRestEntity: Record &quot;TEK Rest Entity&quot;, var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, JSONString: Text, Index: Integer)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TempTEKRestEntityData
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Data Buffer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappingRec
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestEntity
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Entity
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								Index
+    							</td>
+    							<td class="font-style-italic">
+										Integer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeMapping</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeMapping(var TempTEKRestEntityData: Record &quot;TEK Rest Data Buffer&quot; temporary, var MappedRecord: RecordRef, var TEKRestEntity: Record &quot;TEK Rest Entity&quot;, var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, JSONString: Text, var MappingIsHandled: Boolean)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TempTEKRestEntityData
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Data Buffer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestEntity
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Entity
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappingIsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+    <h3 class="memberNameHolder">OnBeforeMapping2</h3>
+    <div class="memberInfo">
+
+
+    		<pre><code dir="ltr" class="hljs lang-al">[IntegrationEvent(False,False)]
+local procedure OnBeforeMapping2(var TempTEKRestEntityData: Record &quot;TEK Rest Data Buffer&quot; temporary, var MappedRecord: RecordRef, var TEKRestEntity: Record &quot;TEK Rest Entity&quot;, var TEKRestWebServiceArgs: Record &quot;TEK Rest Arg&quot;, JSONString: Text, var MappingIsHandled: Boolean, var SourceRef: RecordRef)</code></pre>
+
+    			<h4>Parameters</h4>
+    			<table class="table">
+    				<thead>
+    					<tr>
+    						<th>Name</th>
+    						<th>Type</th>
+    						<th>Description</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    						<tr>
+    							<td>
+								TempTEKRestEntityData
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Data Buffer
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappedRecord
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestEntity
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Entity
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								TEKRestWebServiceArgs
+    							</td>
+    							<td class="font-style-italic">
+										TEK Rest Arg
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								JSONString
+    							</td>
+    							<td class="font-style-italic">
+										Text
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								MappingIsHandled
+    							</td>
+    							<td class="font-style-italic">
+										Boolean
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    						<tr>
+    							<td>
+								SourceRef
+    							</td>
+    							<td class="font-style-italic">
+										RecordRef
+    							</td>
+    							<td>
+								
+    							</td>
+    						</tr>
+    				</tbody>
+    			</table>
+
+
+
+    </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

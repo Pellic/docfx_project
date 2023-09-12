@@ -1,0 +1,436 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/emili/OneDrive - TEKenable Ltd/Projects/BC Ideas/TEK API Management/output",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Background-Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Background-Task.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Coupling-Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Coupling-Engine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Entity-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Entity-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Entity-Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Entity-Serializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Object-Generator-Mgt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Object-Generator-Mgt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Response-Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Response-Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Subscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-Subscriber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-WS-Mgt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Codeunit/TEK-Rest-WS-Mgt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Enum/AOG-Auth-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Enum/AOG-Auth-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Enum/AOG-Data-Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Enum/AOG-Data-Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Enum/AOG-Generation-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Enum/AOG-Generation-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Enum/AOG-Grant-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Enum/AOG-Grant-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Enum/TEK-Entity-Field-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Enum/TEK-Entity-Field-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Enum/TEK-Rest-Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Enum/TEK-Rest-Instruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Module/TEK-Api-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Module/TEK-Api-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Arg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Arg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Args.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Args.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Client-Calls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Client-Calls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Client.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Coupling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Coupling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Data-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Data-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Entity-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Entity-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Entity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-JSON-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-JSON-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Object-Generator-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Object-Generator-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Object-Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Page/TEK-Rest-Object-Generator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/PermissionSet/TEKRestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/PermissionSet/TEKRestClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Arg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Arg.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Coupling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Coupling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Data-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Data-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Entity-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Entity-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Entity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Interface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Interface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/Table/TEK-Rest-Log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/tek-api-mgt/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/tek-api-mgt/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/tek-api-mgt/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
